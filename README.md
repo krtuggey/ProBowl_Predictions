@@ -21,6 +21,10 @@ This topic was selected because the NFL and statistics are a powerful pair in to
 - Circle role  - Sagar
 - Our team communicates through Slack, Zoom, Text, Github.
 
+#### Project Outline
+- Data Exploration
+- Data Analysis
+
 #### Machine Learning Model
 - Can be seen in "Pro_Bowl_Predictors.ipynb"
 
