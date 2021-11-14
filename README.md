@@ -23,11 +23,11 @@ This topic was selected because the NFL and statistics are a powerful pair in to
 
 #### Project Outline
 - Data Exploration
+  - Databases are pulled
+    - Found in the 
+  - "Data_Cleaning.ipynb" is used for cleaning and transforming.
 - Data Analysis
 
 #### Machine Learning Model
 - Can be seen in "Pro_Bowl_Predictors.ipynb"
 
-#### Database
-- Databases are found in the "Resources" folder
-- "Data_Cleaning.ipynb" is used for cleaning and transforming.
