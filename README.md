@@ -24,8 +24,10 @@ This topic was selected because the NFL and statistics are a powerful pair in to
 #### Project Outline
 - Data Exploration
   - Databases are pulled
-    - Found in the 
-  - "Data_Cleaning.ipynb" is used for cleaning and transforming.
+    - Found in the "Resources" Folder
+  - Data cleaned
+    - "Data_Cleaning.ipynb" is used for cleaning and transforming.
+    - Clean data stored as resource
 - Data Analysis
 
 #### Machine Learning Model
