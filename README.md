@@ -29,7 +29,5 @@ This topic was selected because the NFL and statistics are a powerful pair in to
     - "Data_Cleaning.ipynb" is used for cleaning and transforming.
     - Clean data stored as resource
 - Data Analysis
-
-#### Machine Learning Model
-- Can be seen in "Pro_Bowl_Predictors.ipynb"
-
+  - .ipynb file created to analyze data and develop machine learning model
+    - Pro_Bowl_Predictors.ipynb
