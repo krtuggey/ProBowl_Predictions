@@ -1,7 +1,19 @@
-# Are you ready for some DATA(football)!?
-NFL ProBowl Predictions Using Supervised Learning
+# NFL ProBowl Analysis
 
-#### The topic 
+The Final Project for the [UT Data Analysis and Visualization Boot Camp](https://techbootcamps.utexas.edu/data/).
+
+Group repository: https://github.com/krtuggey/ProBowl_Predictions
+
+Contributors:
+- https://github.com/patels250
+- https://github.com/Bionicbabes
+- https://github.com/krtuggey
+
+## Communication Protocols
+Our team communicated through Slack, Zoom, Text, and Github.
+
+## Project Topic: NFL ProBowl Data Analysis
+### Reason
 This project is focused on the NFL ProBowl and player statistics.
 
 This topic was selected because the NFL and statistics are a powerful pair in today's market. An efficient model that can make predictions about players is useful and fun for the large majority of people who enjoy football (and sports in general). 
@@ -19,7 +31,7 @@ This topic was selected because the NFL and statistics are a powerful pair in to
 - Square role  - Kat
 - Triangle role  - Soren
 - Circle role  - Sagar
-- Our team communicates through Slack, Zoom, Text, Github.
+- 
 
 #### Machine Learning Model
 - Can be seen in "Pro_Bowl_Predictors.ipynb"
