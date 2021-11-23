@@ -38,24 +38,15 @@ For this analysis, six sets of data from 2019 and 2020 were pulled, cleaned and 
   - [2020 NFL Passing](https://www.pro-football-reference.com/years/2020/passing.htm)
   - [2020 NFL Receiving](https://www.pro-football-reference.com/years/2020/receiving.htm)
 
-#### Questions we hope to answer
-- Using historical NFL statistics and a machine learning model, are we able to predict which player will make the ProBowl?
-- Can player statistics provide the necessary data to make a machine learning model? If not, is there a better source of data?
+The data can answer the question: "Can we use historical NFL statistics to effectively predict future ProBowl players?"
 
-#### Sources and tools
-- Project data is from https://www.pro-football-reference.com/ 
-- We are using three datasets from 2019 and 2020: passing, rushing, and receiving. These datasets will be cleaned and used as training data.
-- Additionally, the 2019 and 2020 ProBowl list of players is used as a reference to test predictions.
+## Dataset Communication Protocols
+Raw .csv loaded into 
+Blank loaded into blank
 
-#### Communication protocols
-- Square role  - Kat
-- Triangle role  - Soren
-- Circle role  - Sagar
-- 
+## Machine Learning Model
 
-#### Machine Learning Model
-- Can be seen in "Pro_Bowl_Predictors.ipynb"
+## Presentation
+[Google Slides Presentation](https://docs.google.com/presentation/d/1QMTFeos1eDaJR3Kg4zpU0v_xQqYuAL53f5qtuI3LXi4/edit?usp=sharing)
 
-#### Database
-- Databases are found in the "Resources" folder
-- "Data_Cleaning.ipynb" is used for cleaning and transforming.
+## Dashboard
