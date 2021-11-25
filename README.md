@@ -12,7 +12,7 @@ Contributors:
 ## Communication Protocols
 Our team communicated through Slack, Zoom, Text, and Github.
 
-## Project Topic: NFL ProBowl Data Analysis
+## Project Topic: NFL Pro Bowl Data Analysis
 ### Reason
 
 During the initial phase of the project and project brainstorming, the team focused on topics that met certain criteria:
@@ -21,7 +21,7 @@ During the initial phase of the project and project brainstorming, the team focu
 - The final project could be completed in a feasible amount of time
 - Team members were comfortable with their roles within the project
 
-The NFL ProBowl was chosen as the project focus because:
+The NFL Pro Bowl was chosen as the project focus because:
 - The process is interesting and demonstrates the principles we have learned throughout the course
 - The data available was vast and accessible
 - A machine learning model can be applied effectively
@@ -33,21 +33,31 @@ For this analysis, six sets of data from 2019 and 2020 were pulled, cleaned and 
   - [2019 NFL Rushing](https://www.pro-football-reference.com/years/2019/rushing.htm)
   - [2019 NFL Passing](https://www.pro-football-reference.com/years/2019/passing.htm)
   - [2019 NFL Receiving](https://www.pro-football-reference.com/years/2019/receiving.htm)
+  - [2019 NFL Pro Bowl](https://www.pro-football-reference.com/years/2019/probowl.htm)
 - 2020 source data:
   - [2020 NFL Rushing](https://www.pro-football-reference.com/years/2020/rushing.htm)
   - [2020 NFL Passing](https://www.pro-football-reference.com/years/2020/passing.htm)
   - [2020 NFL Receiving](https://www.pro-football-reference.com/years/2020/receiving.htm)
+  - [2020 NFL Pro Bowl](https://www.pro-football-reference.com/years/2020/probowl.htm)
 
 The data can answer the question: "Can we use historical NFL statistics to effectively predict future ProBowl players?"
 
-## Dataset Communication Protocols
-Raw .csv loaded into 
-Blank loaded into blank
+## Dataset
+
+- Data downloaded from Pro Football Reference as .xlsx files
+- Data processed and cleaned in Pandas
+- Data exported as .csv files
+- Data from .csv files loaded into PostgreSQL using pgAdmin4 and uploaded to AWS RDS
+
+![ERD.PNG](Resources/Images/ERD.PNG)
 
 ## Machine Learning Model
 
 ## Presentation
+
 [Google Slides Presentation](https://docs.google.com/presentation/d/1QMTFeos1eDaJR3Kg4zpU0v_xQqYuAL53f5qtuI3LXi4/edit?usp=sharing)
 
-## Dashboard
+## Dashboards
 
+[2019 Dashboard](https://public.tableau.com/app/profile/sagar.patel4941/viz/ProBowl2019/2019Dashboard)
+[2020 Dashboard](https://public.tableau.com/app/profile/sagar.patel4941/viz/ProBowl2020/2020Dashboard)
