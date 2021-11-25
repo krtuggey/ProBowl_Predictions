@@ -1,4 +1,4 @@
-# NFL ProBowl Analysis
+# NFL Pro Bowl Analysis
 
 The Final Project for the [UT Data Analysis and Visualization Boot Camp](https://techbootcamps.utexas.edu/data/).
 
