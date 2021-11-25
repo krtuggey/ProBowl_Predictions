@@ -40,7 +40,7 @@ For this analysis, six sets of data from 2019 and 2020 were pulled, cleaned and 
   - [2020 NFL Receiving](https://www.pro-football-reference.com/years/2020/receiving.htm)
   - [2020 NFL Pro Bowl](https://www.pro-football-reference.com/years/2020/probowl.htm)
 
-The data can answer the question: "Can we use historical NFL statistics to effectively predict future ProBowl players?"
+The data can answer the question: "Can we use historical NFL statistics to effectively predict future Pro Bowl players?"
 
 ## Dataset
 
