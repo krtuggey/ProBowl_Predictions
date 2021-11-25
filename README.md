@@ -51,6 +51,31 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 ![ERD.PNG](Resources/Images/ERD.PNG)
 
+- 545 players in 2019, 561 players in 2020
+- 22 variables
+  - Player
+  - Team
+  - Age
+  - Position
+  - Games Played
+  - Games Started
+  - Pass Completions
+  - Pass Attempts
+  - Pass Yards
+  - Pass Touchdowns
+  - Interceptions
+  - 4th Quarter Comebacks
+  - Game Winning Drives
+  - Rush Attempts
+  - Rush Yards
+  - Rush Touchdowns
+  - Targets
+  - Receptions
+  - Receiving Yards
+  - Receiving Touchdowns
+  - Fumbles
+  - Pro Bowl (True/False)
+
 ## Machine Learning Model
 
 ## Presentation
@@ -60,4 +85,5 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 ## Dashboards
 
 [2019 Dashboard](https://public.tableau.com/app/profile/sagar.patel4941/viz/ProBowl2019/2019Dashboard)
+
 [2020 Dashboard](https://public.tableau.com/app/profile/sagar.patel4941/viz/ProBowl2020/2020Dashboard)
