@@ -125,7 +125,14 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 ![confusion%20matrix.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/confusion%20matrix.PNG)
 
 ## **Importances**
-- To find our which features in the data set were of the most importance we used the Mean Decrease in Impurity function.  Gini Importance or Mean Decrease in Impurity (MDI) calculates each feature importance as the sum over the number of splits (across all tress) that include the feature, proportionally to the number of samples it splits.  
+- To find our which features in the data set were of the most importance we used the Mean Decrease in Impurity function.  Gini Importance or Mean Decrease in Impurity (MDI) calculates each feature importance as the sum over the number of splits (across all tress) that include the feature, proportionally to the number of samples it splits.
+
+![importances_MDI.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/importances_MDI.PNG) 
+
+## **Improtance Permutations**
+- With the data above we could see how each of the features were weighted in the random forest classifier model but it was still unclear which feature is the most significant.  To help us better identify the feature with the most impact we used Permutation feature importance.  The permutation feature importance is defined to be the decrease in a model score when a single feature value is randomly shuffled.  This procedure breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature. This technique benefits from being model agnostic and can be calculated many times with different permutations of the feature.
+
+
 
 ## Presentation
 
