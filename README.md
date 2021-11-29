@@ -82,7 +82,7 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 **Summary**
 
-- After investigating our data and understanding that our goal was to create a model that would be able to predict future outcome of a given data set we decided to choose the supervised machine learning logistic regression model.  In past experience we used sklearn on a single data set implementing the train_test_split function.  This function will take the data and randomly split the data into the test and train data sets but that is not what we wanted to do.  For our model we wanted to use the 2019 data set as our training model and 2020 data set as our testing model to see how well we are able to predict future pro bowl selections based on player statistics.  
+- After investigating our data and understanding that our goal was to create a model that would be able to predict future outcome of a given data set we decided to choose the supervised machine learning logistic regression model.  In past experience we used sklearn on a single data set implementing the train_test_split function.  This function will take the data and randomly split the data into the test and train data sets but that is not what we wanted to do.  For our model we wanted to use the 2019 data set as our training model and 2020 data set as our testing model to see how well we are able to predict future pro bowl selections based on player statistics.  The below is a step by step analysis for the QB position and the analysis was repeated for each position, QB,RB,WR and TE. 
 
 **Preparign the Data**
 
@@ -133,6 +133,10 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 - With the data above we could see how each of the features were weighted in the random forest classifier model but it was still unclear which feature is the most significant.  To help us better identify the feature with the most impact we used Permutation feature importance.  The permutation feature importance is defined to be the decrease in a model score when a single feature value is randomly shuffled.  This procedure breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature. This technique benefits from being model agnostic and can be calculated many times with different permutations of the feature.
 
 ![permutation_importance.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/permutation_importance.PNG)
+
+## **Results**
+- The results we very mixed, although our accuracy was really good all of them being above 90% our recall was between 0% and 75% and we would like to refine the model to get the recall to be more consistent.  
+- 
 
 ## Presentation
 
