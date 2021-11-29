@@ -114,9 +114,15 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 ![logisitic_regression.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/logisitic_regression.PNG)
 
-## **Randon Forest Clasifier**
-- We also wanted to do more analysis to try and figure our which of the feature are the most significant and to see if the we could get better accuracy with another model.  Determining the most significant feature will help us later in creating our dashboard.  After running the analysis we found our some interesting information from the confusion matrix and that statistics.  
+## **Random Forest Clasifier**
+- We also wanted to do more analysis to try and figure our which of the feature are the most significant and to see if the we could get better accuracy with another model.  Determining the most significant feature will help us later in creating our dashboard.  After running the analysis we found our some interesting information from the confusion matrix and that statistics. 
+- Accuracy in the random forest classifier was reduced to 90%
+- For the QB predictions the recall was 0, meaning it was not able to predict and of the probowl player in the 2020 data set.
+- The recall for each position ranged from 0% to 75% 
 
+**Confusion Matrix**
+
+![confusion%20matrix.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/confusion%20matrix.PNG)
 
 
 ## Presentation
