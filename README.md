@@ -111,6 +111,7 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 **Logistic REgression**
 - Once all the variable were assigned for the model we were able to run the model and get our results using the classifer.predict on your X_test data set. We were able to get an accuracy score by comparing the predicted values vs. y_test values. 
 
+![logisitic_regression.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/logisitic_regression.PNG)
 
 ## Presentation
 
