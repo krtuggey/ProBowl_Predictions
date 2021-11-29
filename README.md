@@ -88,10 +88,10 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 - When we pulled in the data from the data base there was some manipulation that needed to be done because Scikit-learn's algorithms only understand numeric data.  The data had multiple columns that contained characters so we had a decision to make to either keep the data or just remove the data, we ended up doing a little of both.  One technique to do this is to encode the data or we could have used a the function labelencoder.  The decision was made that the team that the player played for was insignificant and that data could just be removed, also we decided to splits all the players into their own data set based on position.  Therefore the position had no significance if they were all the same for all the players.  We then just indexed all the player names in the data set and we were left with a clean numerical data set that we could perform our logistical regression on.  
 
-# Original Data Set 
+### Original Data Set 
 ![preparing_data_1.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/preparing_data_1.PNG)
 
-# Cleaned Data Set 
+### Cleaned Data Set 
 
 ![preparing_data_2.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/preparing_data_2.PNG)
 
