@@ -108,10 +108,16 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 ![splitdata_2020.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/splitdata_2020.PNG)
 
 
-**Logistic REgression**
+## **Logistic Regression**
 - Once all the variable were assigned for the model we were able to run the model and get our results using the classifer.predict on your X_test data set. We were able to get an accuracy score by comparing the predicted values vs. y_test values. 
+- Our model was able to predict with 92.5 % accuracy 
 
 ![logisitic_regression.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/logisitic_regression.PNG)
+
+## **Randon Forest Clasifier**
+- We also wanted to do more analysis to try and figure our which of the feature are the most significant and to see if the we could get better accuracy with another model.  Determining the most significant feature will help us later in creating our dashboard.  After running the analysis we found our some interesting information from the confusion matrix and that statistics.  
+
+
 
 ## Presentation
 
