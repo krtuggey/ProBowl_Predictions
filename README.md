@@ -91,7 +91,7 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 **Original Data Set** 
 ![preparing_data_1.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/preparing_data_1.PNG)
 
-**Cleaned Data Set **
+**Cleaned Data Set**
 
 ![preparing_data_2.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/preparing_data_2.PNG)
 
@@ -102,7 +102,7 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 **2019 data set X_train, Y_train**
 
 
-2020 data set X_test, Y_test
+**2020 data set X_test, Y_test**
 
 
 ## Presentation
