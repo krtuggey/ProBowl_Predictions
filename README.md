@@ -78,6 +78,15 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 ## Machine Learning Model
 
+------------------------------------
+
+**Summary**
+
+- After investigating our data and understanding that our goal was to create a model that would be able to predict future outcome of a given data set we decided to choose the supervised machine learning logistic regression model.  In past experience we used sklearn on a single data set implementing the train_test_split function.  This function will take the data and randomly split the data into the test and train data sets but that is not what we wanted to do.  For our model we wanted to use the 2019 data set as our training model and 2020 data set as our testing model to see how well we are able to predict future pro bowl selections based on player statistics.  
+
+**Preparign the Data**
+
+
 ## Presentation
 
 [Google Slides Presentation](https://docs.google.com/presentation/d/1QMTFeos1eDaJR3Kg4zpU0v_xQqYuAL53f5qtuI3LXi4/edit?usp=sharing)
