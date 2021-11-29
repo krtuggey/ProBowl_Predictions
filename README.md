@@ -124,6 +124,8 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 ![confusion%20matrix.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/confusion%20matrix.PNG)
 
+## **Importances**
+- To find our which features in the data set were of the most importance we used the Mean Decrease in Impurity function.  Gini Importance or Mean Decrease in Impurity (MDI) calculates each feature importance as the sum over the number of splits (across all tress) that include the feature, proportionally to the number of samples it splits.  
 
 ## Presentation
 
