@@ -136,7 +136,10 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 ## **Results**
 - The results we very mixed, although our accuracy was really good all of them being above 90% our recall was between 0% and 75% and we would like to refine the model to get the recall to be more consistent.  
-- 
+- To make this model more robust we would go back 5 year instead of just 1 year 
+- Create a threshold on player statistics removing the outliers creating a more standard scaler
+- Limit to amount of feature to remove items like age, games, games started.
+
 
 ## Presentation
 
