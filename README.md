@@ -101,9 +101,11 @@ The data can answer the question: "Can we use historical NFL statistics to effec
 
 **2019 data set X_train, Y_train**
 
+![splitdata_2019.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/splitdata_2019.PNG)
 
 **2020 data set X_test, Y_test**
 
+![splitdata_2020.PNG](https://github.com/krtuggey/ProBowl_Predictions/blob/main/Resources/Images/splitdata_2020.PNG)
 
 ## Presentation
 
